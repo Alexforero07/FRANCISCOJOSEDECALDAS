@@ -52,21 +52,37 @@ export default function Footer() {
           <img src="/images/xicon.png" alt="Twitter" className="w-5 h-5 object-contain" />
           Twitter
         </a>
+
+        <a 
+          href="https://www.youtube.com/@colegiocaldasvillavicencio1772" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:opacity-80 w-fit"
+        >
+          <img src="/images/youtube.png" alt="YouTube" className="w-5 h-5 object-contain" />
+          YouTube
+        </a>
       </div>
 
       {/* Columna 3 - Contacto */}
-      <div className="flex flex-col gap-2">
-        <h3 className="font-bold">Contacto</h3>
-        <p className="flex items-start gap-2">
-          <img src="/images/mapa.png" alt="Dirección" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
-          <span>Carrera 26 No. 35-68, Villavicencio</span>
-        </p>
-        <p className="flex items-start gap-2">
-          <img src="/images/gmail.png" alt="Correo" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
-          <span>caldasvillavo@edu.co</span>
-        </p>
-      </div>
-
+<div className="flex flex-col gap-2">
+  <h3 className="font-bold">Contacto</h3>
+  <p className="flex items-start gap-2">
+    <img src="/images/mapa.png" alt="Dirección" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+    <a
+      href="https://maps.app.goo.gl/CSLknyPo9BJWtnSL7"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:underline hover:text-blue-400 transition-colors"
+    >
+      Cl. 35 #25-83, Villavicencio, Meta
+    </a>
+  </p>
+  <p className="flex items-start gap-2">
+    <img src="/images/gmail.png" alt="Correo" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+    <span>iecaldasvillavicencio@hotmail.com</span>
+  </p>
+</div>
     </footer>
   );
 }

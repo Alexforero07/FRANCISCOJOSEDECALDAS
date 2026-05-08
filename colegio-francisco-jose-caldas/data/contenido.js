@@ -26,11 +26,11 @@ export const cards = [
     opciones: [
       {
         nombre: "Primaria Antiguos Estudiantes",
-        link: "/prematricula/primaria"
+        link: "https://buscador.colpegasus.org/"
       },
       {
         nombre: "Secundaria Antiguos Estudiantes",
-        link: "/prematricula/secundaria"
+        link: "https://buscador.colpegasus.org/"
       }
     ]
   },
@@ -43,11 +43,11 @@ export const cards = [
     opciones: [
       {
         nombre: "Primaria Nuevos Estudiantes",
-        link: "/inscripciones/primaria"
+        link: "https://buscador.colpegasus.org/"
       },
       {
         nombre: "Secundaria Nuevos Estudiantes",
-        link: "/inscripciones/secundaria"
+        link: "https://buscador.colpegasus.org/"
       }
     ]
   }
