@@ -9,11 +9,11 @@ export default function Estudiantes() {
 {/* PERFIL DEL ALUMNO */}
 <section className="p-6 md:p-10 bg-white">
   <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start">
-    
+
     <img
-      src="/images/estudiante.jpg"
+      src="/images/sss.jpg"
       alt="Perfil del Alumno"
-      className="w-full md:w-1/2 h-auto object-cover rounded shadow"
+      className="w-full md:w-1/2 h-auto object-cover rounded shadow md:mt-20"
     />
 
     <div className="md:w-1/2">
@@ -30,62 +30,17 @@ export default function Estudiantes() {
         </p>
 
         <ul className="list-disc list-inside space-y-2">
-          <li>
-            Proyecte sus conocimientos y sus principios para integrarse
-            activamente a su comunidad y transformarla.
-          </li>
-
-          <li>
-            Sea una persona ante todo humana, integral en todos sus actos.
-          </li>
-
-          <li>
-            Sea cumplidora de sus deberes académicos de manera crítica y
-            analítica.
-          </li>
-
-          <li>
-            Sea capaz de aceptar, recibir y seleccionar todo aquello que
-            contribuya a fortalecer su voluntad y enriquecer sus sentimientos.
-          </li>
-
-          <li>
-            Enfrente con responsabilidad y acierto los distintos compromisos
-            que depare su entorno socio-cultural, proyectando su capacidad para
-            alcanzar un futuro exitoso.
-          </li>
-
-          <li>
-            Contribuya con la preservación del derecho ajeno, con la justicia
-            social y la honra ciudadana.
-          </li>
-
-          <li>
-            Sea solidario y adquiera hábitos de sociabilidad que le faciliten
-            la adopción del medio cultural y el éxito total en la vida pública.
-          </li>
-
-          <li>
-            Se proponga alcanzar un nivel académico que le permita ingresar a
-            la educación superior y desarrollar un gran espíritu de
-            receptividad.
-          </li>
-
-          <li>
-            Sea respetuoso por los principios políticos, filosóficos y de la
-            familia.
-          </li>
-
-          <li>
-            Valore el medio ambiente que le rodea y contribuya a su
-            conservación.
-          </li>
-
-          <li>
-            Sea un líder que proyecte sus actividades con visión y sentido de
-            pertenencia hacia toda la comunidad educativa y organizaciones
-            regionales.
-          </li>
+          <li>Proyecte sus conocimientos y sus principios para integrarse activamente a su comunidad y transformarla.</li>
+          <li>Sea una persona ante todo humana, integral en todos sus actos.</li>
+          <li>Sea cumplidora de sus deberes académicos de manera crítica y analítica.</li>
+          <li>Sea capaz de aceptar, recibir y seleccionar todo aquello que contribuya a fortalecer su voluntad y enriquecer sus sentimientos.</li>
+          <li>Enfrente con responsabilidad y acierto los distintos compromisos que depare su entorno socio-cultural, proyectando su capacidad para alcanzar un futuro exitoso.</li>
+          <li>Contribuya con la preservación del derecho ajeno, con la justicia social y la honra ciudadana.</li>
+          <li>Sea solidario y adquiera hábitos de sociabilidad que le faciliten la adopción del medio cultural y el éxito total en la vida pública.</li>
+          <li>Se proponga alcanzar un nivel académico que le permita ingresar a la educación superior y desarrollar un gran espíritu de receptividad.</li>
+          <li>Sea respetuoso por los principios políticos, filosóficos y de la familia.</li>
+          <li>Valore el medio ambiente que le rodea y contribuya a su conservación.</li>
+          <li>Sea un líder que proyecte sus actividades con visión y sentido de pertenencia hacia toda la comunidad educativa y organizaciones regionales.</li>
         </ul>
       </div>
     </div>
